@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Импортируем Link
+import { Link } from 'react-router-dom';
 
 function Menu() {
     return (
@@ -12,6 +12,7 @@ function Menu() {
                 <li><Link to="/lab5">Лабораторная работа №5</Link></li>
                 <li><Link to="/lab6">Лабораторная работа №6</Link></li>
                 <li><Link to="/lab7">Лабораторная работа №7</Link></li>
+                <li><Link to="/feedback">Обратная связь</Link></li>
             </ul>
         </nav>
     );
